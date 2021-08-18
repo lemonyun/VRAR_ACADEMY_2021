@@ -95,6 +95,7 @@
      <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRSpectatorModeDomeTest.cs" />
      <Compile Include="Assets\Oculus\VR\Scripts\OVRMixedReality.cs" />
      <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRRaycaster.cs" />
+     <Compile Include="Assets\Oculus\VR\Scripts\Util\Hand.cs" />
      <Compile Include="Assets\Oculus\VR\Scripts\OVRHapticsClip.cs" />
      <Compile Include="Assets\Oculus\VR\Scripts\OVRDebugHeadController.cs" />
      <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRResetOrientation.cs" />

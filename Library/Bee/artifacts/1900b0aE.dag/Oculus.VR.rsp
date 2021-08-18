@@ -343,6 +343,7 @@
 "Assets/Oculus/VR/Scripts/OVRSceneLoader.cs"
 "Assets/Oculus/VR/Scripts/OVRTracker.cs"
 "Assets/Oculus/VR/Scripts/OVRXRSDKNative.cs"
+"Assets/Oculus/VR/Scripts/Util/Hand.cs"
 "Assets/Oculus/VR/Scripts/Util/OVRAudioSourceTest.cs"
 "Assets/Oculus/VR/Scripts/Util/OVRAutoDestroyInMRC.cs"
 "Assets/Oculus/VR/Scripts/Util/OVRChromaticAberration.cs"

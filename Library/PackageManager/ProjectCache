@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637647813131061549
+      ticks: 637648512280563892
     m_Hash: 2842984298
   m_LockFileStatus:
     m_FilePath: D:/Unity/KoreanTraditionalJob_VR/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637647813142989088
+      ticks: 637648512280854104
     m_Hash: 2791456162
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -405,9 +405,11 @@ m_ResolvedPackages:
     - 1.1.24
     - 1.1.26
     - 1.1.27
+    - 1.1.29
     compatible:
     - 1.1.27
-    verified: 1.1.27
+    - 1.1.29
+    verified: 1.1.29
   dependencies:
   - name: com.unity.ext.nunit
     version: 1.0.6

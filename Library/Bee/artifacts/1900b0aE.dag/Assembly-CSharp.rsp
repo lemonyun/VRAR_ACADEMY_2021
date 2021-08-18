@@ -480,11 +480,6 @@
 "Assets/Oculus/SampleFramework/Usage/Passthrough/Scripts/SelectivePassthroughExperience.cs"
 "Assets/Oculus/SampleFramework/Usage/Passthrough/Scripts/SPPquad.cs"
 "Assets/Oculus/SampleFramework/Usage/StartScene/Scripts/StartMenu.cs"
-"Assets/Scripts/ARAVRInput.cs"
-"Assets/Scripts/CamRotate.cs"
-"Assets/Scripts/Hand.cs"
-"Assets/Scripts/HandController.cs"
-"Assets/Scripts/_GrabObject.cs"
 -langversion:8.0
 
 /deterministic
