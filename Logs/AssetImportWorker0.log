@@ -1,0 +1,849 @@
+Using pre-set license
+Built from '2021.1/release' branch; Version is '2021.1.16f1 (5fa502fca597) revision 6268162'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Education; OS build 19043.1165; Version 2009; 64bit' Language: 'ko' Physical Memory: 65461 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.1.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/pddho/VRAR_ACADEMY_2021
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53308
+Successfully changed project path to: C:/Users/pddho/VRAR_ACADEMY_2021
+C:/Users/pddho/VRAR_ACADEMY_2021
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 101.27 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 3.44 ms.
+Initialize engine version: 2021.1.16f1 (5fa502fca597)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/pddho/VRAR_ACADEMY_2021/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2484)
+    Vendor:   NVIDIA
+    VRAM:     8043 MB
+    Driver:   27.21.14.6140
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56728
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002473 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 77.99 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.602 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1603ms)
+		BeginReloadAssembly (71ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (372ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (124ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (184ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (78ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (76ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.011618 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\pddho\VRAR_ACADEMY_2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\pddho\VRAR_ACADEMY_2021\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+[XR] OVRP version 1.63.0
+Mono: successfully reloaded assembly
+- Completed reload, in  1.051 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1052ms)
+		BeginReloadAssembly (137ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (862ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (285ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (365ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (272ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.82 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 3632 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 146.3 MB.
+System memory in use after: 146.4 MB.
+
+Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 4060.
+Total: 2.985800 ms (FindLiveObjects: 0.226400 ms CreateObjectMapping: 0.135100 ms MarkObjects: 2.523200 ms  DeleteObjects: 0.100700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Models/rice bowl.fbx
+  artifactKey: Guid(08e4dd63bfc05a2488c3de90e695a252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/rice bowl.fbx using Guid(08e4dd63bfc05a2488c3de90e695a252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '342f54fb12033e2146424576011d2de4') in 0.149449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Models/Yagyeon_body.fbx
+  artifactKey: Guid(cd28dbc974e5c484bbf7f40627b64d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Yagyeon_body.fbx using Guid(cd28dbc974e5c484bbf7f40627b64d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '577f5eb64cc2d8465b77e67314249b8b') in 0.016419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.178357 seconds.
+  path: Assets/Models/Yagyeon_body.fbx
+  artifactKey: Guid(cd28dbc974e5c484bbf7f40627b64d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Yagyeon_body.fbx using Guid(cd28dbc974e5c484bbf7f40627b64d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c7c187684fc7c267d2f60d421583cc6') in 0.019006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.983750 seconds.
+  path: Assets/Models/Yagyeon_handle.fbx
+  artifactKey: Guid(4bfdbf077755f8d49a3b925434710948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Yagyeon_handle.fbx using Guid(4bfdbf077755f8d49a3b925434710948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdc56154148101c1694468ee5ed34b14') in 0.021842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.955085 seconds.
+  path: Assets/Models/손잡이Surface_Color.jpg
+  artifactKey: Guid(cd37f36c37b18ad488f73cfb7fe3f794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/손잡이Surface_Color.jpg using Guid(cd37f36c37b18ad488f73cfb7fe3f794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dbccf4661f036345617b1de9bcc92b5') in 0.030250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.655246 seconds.
+  path: Assets/Models/Yaktanggi_body.fbx
+  artifactKey: Guid(b19a0614caf943140ba3e01dc146326d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Yaktanggi_body.fbx using Guid(b19a0614caf943140ba3e01dc146326d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b3d63f0558c92d1d770f52fd334b7c9') in 0.022362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.965344 seconds.
+  path: Assets/Models/Yaktanggi_fabric.fbx
+  artifactKey: Guid(df3bbb1a20e05fc429cd110f342e9637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Yaktanggi_fabric.fbx using Guid(df3bbb1a20e05fc429cd110f342e9637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5161cd738fbbaa5d936a676d177c5838') in 0.022860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.765130 seconds.
+  path: Assets/Models/Yaktanggi_fabric.fbx
+  artifactKey: Guid(df3bbb1a20e05fc429cd110f342e9637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Yaktanggi_fabric.fbx using Guid(df3bbb1a20e05fc429cd110f342e9637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ab9e505a24d05e083c9468b1273960b') in 0.021696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.922024 seconds.
+  path: Assets/Models/Yaktle_body.fbx
+  artifactKey: Guid(06857aa55ae1849409a4aa6316eec8c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Yaktle_body.fbx using Guid(06857aa55ae1849409a4aa6316eec8c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11e4d3eaf94bcb8c249864bd8c3d6457') in 0.025867 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.183523 seconds.
+  path: Assets/Models/Yaktle_handle.fbx
+  artifactKey: Guid(df3c3f863bf6c054e87228b6bfc53504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Yaktle_handle.fbx using Guid(df3c3f863bf6c054e87228b6bfc53504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b246b024887d0439c24d5fad9ba9f58') in 0.024991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 41.391698 seconds.
+  path: Assets/Models/Yagyeon_body.fbx
+  artifactKey: Guid(cd28dbc974e5c484bbf7f40627b64d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Yagyeon_body.fbx using Guid(cd28dbc974e5c484bbf7f40627b64d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf9e4fdbdcad5bdbbe8c8c89a3bebcc8') in 0.016823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.829824 seconds.
+  path: Assets/Models/Yaktanggi_fabric.fbx
+  artifactKey: Guid(df3bbb1a20e05fc429cd110f342e9637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Yaktanggi_fabric.fbx using Guid(df3bbb1a20e05fc429cd110f342e9637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf8b4917d4bf43e7da507f72fbc5d85d') in 0.024535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.550482 seconds.
+  path: Assets/Models/천Normal 1.jpg
+  artifactKey: Guid(f383c799e1894d743859d5859fca6b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/천Normal 1.jpg using Guid(f383c799e1894d743859d5859fca6b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '940acf53d0dddf806216f2a553bd8a8f') in 0.010221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.928308 seconds.
+  path: Assets/Models/천Normal.jpg
+  artifactKey: Guid(ad51f1b5fc45d7f40b479dc1d2921d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/천Normal.jpg using Guid(ad51f1b5fc45d7f40b479dc1d2921d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f712470193d98985de7272ba43bd7960') in 0.009647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.525078 seconds.
+  path: Assets/Models/천Surface_Color 1.jpg
+  artifactKey: Guid(ec4481eede9532245930f8643873d7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/천Surface_Color 1.jpg using Guid(ec4481eede9532245930f8643873d7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cba1101d2bc40815bded9ab34b85845') in 0.009375 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.591172 seconds.
+  path: Assets/Models/하단_바디Normal.jpg
+  artifactKey: Guid(5518bf140b4b9f44a8c9b0ed3fcac58e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/하단_바디Normal.jpg using Guid(5518bf140b4b9f44a8c9b0ed3fcac58e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c08ed25c59a627f37463da0faef336c') in 0.010774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 67.848098 seconds.
+  path: Assets/Models/yakyeon_handle02.fbx
+  artifactKey: Guid(e6986b1e0b380144487ff8e74f113328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/yakyeon_handle02.fbx using Guid(e6986b1e0b380144487ff8e74f113328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6aa155cdbc7b90bdd78f60e88924b59') in 0.022179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.219879 seconds.
+  path: Assets/Models/yakyeon_handle02.fbx
+  artifactKey: Guid(e6986b1e0b380144487ff8e74f113328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/yakyeon_handle02.fbx using Guid(e6986b1e0b380144487ff8e74f113328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a286ddff6bc921405b3b6f2bd361a66c') in 0.039601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.428448 seconds.
+  path: Assets/Models/손잡이Normal.jpg
+  artifactKey: Guid(ec076fb7d2bcf7a4e9a84158f9908caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/손잡이Normal.jpg using Guid(ec076fb7d2bcf7a4e9a84158f9908caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '294ed23c8774f8210ddbcadbf53b407c') in 0.010815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.239194 seconds.
+  path: Assets/Models/yakyeon_handle02.fbx
+  artifactKey: Guid(e6986b1e0b380144487ff8e74f113328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/yakyeon_handle02.fbx using Guid(e6986b1e0b380144487ff8e74f113328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7ae66927133b64db84f9a3ea3d7c6f2') in 0.032295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.937796 seconds.
+  path: Assets/Models/손잡이Surface_Color 1.jpg
+  artifactKey: Guid(8537439e4f2921f4a923094f0b45edf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/손잡이Surface_Color 1.jpg using Guid(8537439e4f2921f4a923094f0b45edf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99f682ab4f8ff219b6cda268460ecb20') in 0.011308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.702472 seconds.
+  path: Assets/Models/yakyeon_handle.fbx
+  artifactKey: Guid(e6986b1e0b380144487ff8e74f113328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/yakyeon_handle.fbx using Guid(e6986b1e0b380144487ff8e74f113328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c25baa61098d2d4e624547dab19f714') in 0.036840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.766742 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Models/TrainPalette.FBX
+  artifactKey: Guid(bd0bb729cb6159b4ab21c5f62cad24ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Models/TrainPalette.FBX using Guid(bd0bb729cb6159b4ab21c5f62cad24ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '811043d4fcc957884c2798a8624b70b0') in 0.556424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Oculus/SampleFramework/Core/DebugUI/Fonts/Montserrat/Montserrat-LightItalic.ttf
+  artifactKey: Guid(d30609de8a17cfb409c74b4302ca60e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Core/DebugUI/Fonts/Montserrat/Montserrat-LightItalic.ttf using Guid(d30609de8a17cfb409c74b4302ca60e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5855d9d5e15d2bb76f57c8bc3e9421b6') in 0.027212 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/DistanceGrab/GroundMaterial.mat
+  artifactKey: Guid(8d8daae58c69eef4e8ac3d976703af6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/DistanceGrab/GroundMaterial.mat using Guid(8d8daae58c69eef4e8ac3d976703af6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b55c2cc921dcf2b76ef089fd501ff8b') in 0.018379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/DistanceGrab/Materials/Ball03WithOutline.mat
+  artifactKey: Guid(9cba9da727fd742f5b4083909359be0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/DistanceGrab/Materials/Ball03WithOutline.mat using Guid(9cba9da727fd742f5b4083909359be0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9a2f88ff1ee649d7d6f48491af5b384') in 0.020028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/Passthrough/Materials/BackgroundSphere.mat
+  artifactKey: Guid(039afe42ccf07934083540cfde4596f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/Passthrough/Materials/BackgroundSphere.mat using Guid(039afe42ccf07934083540cfde4596f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62e8cc90be6552b6a93533dece9603f9') in 0.013012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Materials/ControllerBoxButtons.mat
+  artifactKey: Guid(b3244fa82a3c4c748a0faa4e84afa36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Materials/ControllerBoxButtons.mat using Guid(b3244fa82a3c4c748a0faa4e84afa36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c02566795c4b4c52b06ff28f20d5eb7') in 0.101640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Oculus/SampleFramework/Core/Locomotion/Materials/ColumnGlow.mat
+  artifactKey: Guid(5e53c7a8c2e563c4c90a8fa620eebc2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Core/Locomotion/Materials/ColumnGlow.mat using Guid(5e53c7a8c2e563c4c90a8fa620eebc2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '435d83c0b2f5fa2f9e874a2ce455bee2') in 0.014958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Oculus/VR/Materials/BasicHandMaterial.mat
+  artifactKey: Guid(5ba7d209f622bb44e87b47ce27ee27b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/VR/Materials/BasicHandMaterial.mat using Guid(5ba7d209f622bb44e87b47ce27ee27b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a399ae0842cf0509da7f5a6eebb94362') in 0.019989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/SharedAssets/Materials/Ball03.mat
+  artifactKey: Guid(d73f8afe478afde498d6b36047a52c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/SharedAssets/Materials/Ball03.mat using Guid(d73f8afe478afde498d6b36047a52c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0a4ddbf95e695398417dea29601170c') in 0.023833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Oculus/Spatializer/scenes/materials/AmbisonicObject1.mat
+  artifactKey: Guid(584662273d60a0f47bd7fecbb570e66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Spatializer/scenes/materials/AmbisonicObject1.mat using Guid(584662273d60a0f47bd7fecbb570e66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f5a0e5643d4fb39630f122c9d4ed5aa') in 0.023318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/SharedAssets/Materials/Ball10.mat
+  artifactKey: Guid(159194f8c47a59b44b6aeedaa2eaf336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/SharedAssets/Materials/Ball10.mat using Guid(159194f8c47a59b44b6aeedaa2eaf336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0197dd95e71551567eab98ce649bd084') in 0.017211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/Sources/PrototypeCharacter/Materials/constructor_done.mat
+  artifactKey: Guid(ca49380a71a2bb64c830d06bd421b9d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/Sources/PrototypeCharacter/Materials/constructor_done.mat using Guid(ca49380a71a2bb64c830d06bd421b9d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f0ed1aed2fbc950dd865c46828c499a') in 0.027389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Oculus/SampleFramework/Core/DebugUI/Fonts/Montserrat/Montserrat-MediumItalic.ttf
+  artifactKey: Guid(53b4534908f8f324d8ffe0fc5fa5a31f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Core/DebugUI/Fonts/Montserrat/Montserrat-MediumItalic.ttf using Guid(53b4534908f8f324d8ffe0fc5fa5a31f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c36b923fd7a9980c4c007a95ece048a') in 0.015239 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/Passthrough/Materials/DropShadow.mat
+  artifactKey: Guid(453454162b59cff4e85715109e372e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/Passthrough/Materials/DropShadow.mat using Guid(453454162b59cff4e85715109e372e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a433573d8629f4a0854fee3304494002') in 0.018685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/Passthrough/Materials/Blue.mat
+  artifactKey: Guid(a86f23e51babc544a8f3e240ffe9b263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/Passthrough/Materials/Blue.mat using Guid(a86f23e51babc544a8f3e240ffe9b263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1211f538da7b25d43e0467f87649858') in 0.012689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Oculus/LipSync/Models/FemaleHead_Morph/Materials/hair.mat
+  artifactKey: Guid(d0455a0ebc21e4c758037cb4b82bebd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/LipSync/Models/FemaleHead_Morph/Materials/hair.mat using Guid(d0455a0ebc21e4c758037cb4b82bebd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4599f0e612b7a3f7093313228c8eaa04') in 0.020478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Oculus/SampleFramework/Core/CustomHands/Models/HandMaterial.mat
+  artifactKey: Guid(cc8c9e8a516866042b69a6919d0ab885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Core/CustomHands/Models/HandMaterial.mat using Guid(cc8c9e8a516866042b69a6919d0ab885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1a64454bb38084a61f91e18e11fbd01') in 0.013568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Materials/GearHelp.mat
+  artifactKey: Guid(09c03a3c5049d234590b91bbc6e84462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Materials/GearHelp.mat using Guid(09c03a3c5049d234590b91bbc6e84462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eadcddbdfdf976e7c220094931dac507') in 0.017198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/SharedAssets/Materials/GroundMat.mat
+  artifactKey: Guid(7ae7dc43beb34534db810dee799107f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/SharedAssets/Materials/GroundMat.mat using Guid(7ae7dc43beb34534db810dee799107f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '483b86021ef6d62209ce3cc21d3fcbae') in 0.012988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Oculus/SampleFramework/Core/DebugUI/Fonts/Montserrat/Montserrat-BoldItalic.ttf
+  artifactKey: Guid(440e99598766dbd40a4d8bc01445b5ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Core/DebugUI/Fonts/Montserrat/Montserrat-BoldItalic.ttf using Guid(440e99598766dbd40a4d8bc01445b5ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e72634d14b379341251f28ae3ebbbb3a') in 0.015582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Models/ControllerBox.FBX
+  artifactKey: Guid(6ea491f82329b774d8b8af4a409d8d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Models/ControllerBox.FBX using Guid(6ea491f82329b774d8b8af4a409d8d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb0302f62eeb139f28278ebd77084d95') in 0.101105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/Passthrough/Materials/BrushRing.mat
+  artifactKey: Guid(fc831064da805784e84a86149c3671bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/Passthrough/Materials/BrushRing.mat using Guid(fc831064da805784e84a86149c3671bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2db323a1949777cd3028a2d3d7006706') in 0.019818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/Passthrough/Materials/HandMeshMask.mat
+  artifactKey: Guid(86bd0db9d12fe4cafb0f57c9596dc64d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/Passthrough/Materials/HandMeshMask.mat using Guid(86bd0db9d12fe4cafb0f57c9596dc64d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6f54aab6a925de96a2c893b9569161e') in 0.017057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Oculus/VR/Materials/Arrow.mat
+  artifactKey: Guid(669025377795b574da66d9bb2472fcab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/VR/Materials/Arrow.mat using Guid(669025377795b574da66d9bb2472fcab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19a8cedd7692ca9340a8b012f32a666e') in 0.012411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Oculus/SampleFramework/Core/DebugUI/Fonts/Montserrat/Montserrat-Light.ttf
+  artifactKey: Guid(4c90d3c4d98a33647872e06a6f654f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Core/DebugUI/Fonts/Montserrat/Montserrat-Light.ttf using Guid(4c90d3c4d98a33647872e06a6f654f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cb8da206c9d6c8ebd9eca4a25349329') in 0.016055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/Passthrough/Materials/BlackUnlit.mat
+  artifactKey: Guid(646da484d21bf48d887dedfb481d78f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/Passthrough/Materials/BlackUnlit.mat using Guid(646da484d21bf48d887dedfb481d78f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a0a45e8f817a452b8c5cf9398356df3') in 0.014281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Oculus/VR/Materials/CubeMaterial.mat
+  artifactKey: Guid(62db2d638434d5a488dfb1e789e34b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/VR/Materials/CubeMaterial.mat using Guid(62db2d638434d5a488dfb1e789e34b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2bf3fcfbdc0e1a5c178b116bc2cf48b') in 0.017470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Oculus/Spatializer/scenes/materials/Ground.mat
+  artifactKey: Guid(e121bf11a9143914dbafa9e733415f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Spatializer/scenes/materials/Ground.mat using Guid(e121bf11a9143914dbafa9e733415f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '109d252196c34ebd0f027e5abb6a5beb') in 0.013367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Oculus/VR/Materials/gaze_cursor.mat
+  artifactKey: Guid(7f31de375e167154aa45929466af30e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/VR/Materials/gaze_cursor.mat using Guid(7f31de375e167154aa45929466af30e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d796bdb116c6b287bf773342f3f0278') in 0.019614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Oculus/SampleFramework/Core/DebugUI/Fonts/Montserrat/Montserrat-Bold.ttf
+  artifactKey: Guid(7e89e80fce8fc06478c726f2f3de7863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Core/DebugUI/Fonts/Montserrat/Montserrat-Bold.ttf using Guid(7e89e80fce8fc06478c726f2f3de7863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bf80c4b461f5b19e30a0290c6230c46') in 0.015713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Materials/GridMat.mat
+  artifactKey: Guid(ef9e1306ede8d0f48b798c2341d75ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Materials/GridMat.mat using Guid(ef9e1306ede8d0f48b798c2341d75ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6be45b6d9228c002ae3fd7080704f9d') in 0.018299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Materials/ControllerBoxGlow.mat
+  artifactKey: Guid(a439cfb9369c1404d9db2e5580667b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Materials/ControllerBoxGlow.mat using Guid(a439cfb9369c1404d9db2e5580667b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61875b19ae5ef8dc1573db50ff3078e9') in 0.017389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/Passthrough/Materials/FatHand.mat
+  artifactKey: Guid(ab04d9fb6b1844341887a1606c641c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/Passthrough/Materials/FatHand.mat using Guid(ab04d9fb6b1844341887a1606c641c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9725ee284413c98a7a5d38e6b3e072a') in 0.018039 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/Locomotion/Materials/GroundMat.mat
+  artifactKey: Guid(1f0c317a1c26f8a4285902639d3d1a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/Locomotion/Materials/GroundMat.mat using Guid(1f0c317a1c26f8a4285902639d3d1a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60c6c99a2603082963701c1520ea18ee') in 0.010029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/Passthrough/Materials/FlashlightGlow.mat
+  artifactKey: Guid(0f3abb54da8820c4891cbee10f6f037e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/Passthrough/Materials/FlashlightGlow.mat using Guid(0f3abb54da8820c4891cbee10f6f037e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e659b053ce4a3bcbf44ee7dbfbb07e93') in 0.012584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Oculus/LipSync/Models/FemaleHead_Morph/Materials/eyelashes.mat
+  artifactKey: Guid(e906d4c6bf3304d5dac06eee4fe24c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/LipSync/Models/FemaleHead_Morph/Materials/eyelashes.mat using Guid(e906d4c6bf3304d5dac06eee4fe24c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '059b5f5a0e2b39bb4cd9cb04706ff73c') in 0.044516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Materials/ControllerBox.mat
+  artifactKey: Guid(520a8c6c6d409b44d921cd1e654d1807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Materials/ControllerBox.mat using Guid(520a8c6c6d409b44d921cd1e654d1807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16f668387e6a95b0ee4cbaeb4cd49615') in 0.017081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/Locomotion/Materials/DebugDrawLine.mat
+  artifactKey: Guid(b4fdc20717507cc48b28ef9db82f0d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/Locomotion/Materials/DebugDrawLine.mat using Guid(b4fdc20717507cc48b28ef9db82f0d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c2dffad1f39c835da08cf4012fee923') in 0.012587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/DistanceGrab/Materials/Ball10WithOutline.mat
+  artifactKey: Guid(d00d1a54e2eb041f4aaa2e3a08cd3e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/DistanceGrab/Materials/Ball10WithOutline.mat using Guid(d00d1a54e2eb041f4aaa2e3a08cd3e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61b8105874eacc180df7e18294e7f849') in 0.013629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Oculus/VR/Materials/cursor_timer_material.mat
+  artifactKey: Guid(9531aa878fd5c4749b288b72024e8d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/VR/Materials/cursor_timer_material.mat using Guid(9531aa878fd5c4749b288b72024e8d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22f516d34cd16d372f7c92f465260c93') in 0.023513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Oculus/SampleFramework/Core/HandsInteraction/Materials/DefaultHandMaterial.mat
+  artifactKey: Guid(8f92ce6a2e9e04e458f46e6a635b1d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Core/HandsInteraction/Materials/DefaultHandMaterial.mat using Guid(8f92ce6a2e9e04e458f46e6a635b1d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4848d3c36d6e25798d5ab156b386237') in 0.053315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/Passthrough/Materials/Graffiti.mat
+  artifactKey: Guid(dd331cc38e3258643bf0d3d221718362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/Passthrough/Materials/Graffiti.mat using Guid(dd331cc38e3258643bf0d3d221718362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2de89d4ed2ad3f189b1bec90d644499e') in 0.026524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Materials/BackgroundMaterial.mat
+  artifactKey: Guid(e95c781da52e2d14fb2fba44d7476164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Materials/BackgroundMaterial.mat using Guid(e95c781da52e2d14fb2fba44d7476164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a816196f57bf3c8f196b67b38c3e37d') in 0.041862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Oculus/VR/Materials/GazePointer.mat
+  artifactKey: Guid(3fac3b9744290eb4c89b0e4ffd5fe085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/VR/Materials/GazePointer.mat using Guid(3fac3b9744290eb4c89b0e4ffd5fe085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1c02a8c7af623239f3ebe1a1fc1f6bf') in 0.016985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Oculus/SampleFramework/Core/DebugUI/Fonts/Montserrat/Montserrat-Medium.ttf
+  artifactKey: Guid(6921a454aa104cf47a67f59c64acaa17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Core/DebugUI/Fonts/Montserrat/Montserrat-Medium.ttf using Guid(6921a454aa104cf47a67f59c64acaa17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54379bf2a73079c052502da8373521cd') in 0.015359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.204771 seconds.
+  path: Assets/Models/rice bowl.fbx
+  artifactKey: Guid(08e4dd63bfc05a2488c3de90e695a252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/rice bowl.fbx using Guid(08e4dd63bfc05a2488c3de90e695a252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59e6e91dbabc1380374d0d699b2a98b0') in 0.019610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 78.900025 seconds.
+  path: Assets/Models/rice bowl.fbx
+  artifactKey: Guid(08e4dd63bfc05a2488c3de90e695a252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/rice bowl.fbx using Guid(08e4dd63bfc05a2488c3de90e695a252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db88456133bda7a3b4206fdd82324318') in 0.024039 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.009754 seconds.
+  path: Assets/Models/rice bowl.fbx
+  artifactKey: Guid(08e4dd63bfc05a2488c3de90e695a252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/rice bowl.fbx using Guid(08e4dd63bfc05a2488c3de90e695a252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14b5387f2e35b1b4be69a82845dab71d') in 0.019920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.740863 seconds.
+  path: Assets/Models/그릇Normal.jpg
+  artifactKey: Guid(933ddaaeb4538a942863be95ac5b1388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/그릇Normal.jpg using Guid(933ddaaeb4538a942863be95ac5b1388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e919c880323ce9dfa947956da229f2f3') in 0.009716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 155.093153 seconds.
+  path: Assets/Models/yaktanggi.fbx
+  artifactKey: Guid(ee9135dc9fe8957488a64e18f7bbce8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/yaktanggi.fbx using Guid(ee9135dc9fe8957488a64e18f7bbce8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd918d0b69cc7b6f5c65ae834b5e83b7d') in 0.027249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.988595 seconds.
+  path: Assets/Models/yaktanggi.fbx
+  artifactKey: Guid(ee9135dc9fe8957488a64e18f7bbce8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/yaktanggi.fbx using Guid(ee9135dc9fe8957488a64e18f7bbce8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a38053c23c8a1441fe7827eb1b74a085') in 0.021690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.802446 seconds.
+  path: Assets/Models/옹기그릇Normal.jpg
+  artifactKey: Guid(905abab25c4a4cd41b5f0d88d3d1ec63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/옹기그릇Normal.jpg using Guid(905abab25c4a4cd41b5f0d88d3d1ec63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24737fec171643b1a119990d3ced67f8') in 0.010556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.022416 seconds.
+  path: Assets/Models/옹기그릇Surface_Color.jpg
+  artifactKey: Guid(3587b063f1dbfe246b7f4128c30ac879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/옹기그릇Surface_Color.jpg using Guid(3587b063f1dbfe246b7f4128c30ac879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '139bbacdf6113ca1672a715536e2bc7d') in 0.009950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.012847 seconds.
+  path: Assets/Models/yaktanggi.jpg
+  artifactKey: Guid(3587b063f1dbfe246b7f4128c30ac879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/yaktanggi.jpg using Guid(3587b063f1dbfe246b7f4128c30ac879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d864a6611ecb2c370204c00b0e41412') in 0.007100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.393864 seconds.
+  path: Assets/Models/그릇Surface_Color.jpg
+  artifactKey: Guid(2c80ba9dc413d0c41bd03dfdc7f93c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/그릇Surface_Color.jpg using Guid(2c80ba9dc413d0c41bd03dfdc7f93c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10cf2db58a146f313f0e3ee84a4ba503') in 0.009946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.036839 seconds.
+  path: Assets/Models/rice bowl.jpg
+  artifactKey: Guid(2c80ba9dc413d0c41bd03dfdc7f93c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/rice bowl.jpg using Guid(2c80ba9dc413d0c41bd03dfdc7f93c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2ae1528cf49ff5debd055d3cac76dd2') in 0.006921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.494564 seconds.
+  path: Assets/Models/Yakyeon_handle.jpg
+  artifactKey: Guid(8537439e4f2921f4a923094f0b45edf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Yakyeon_handle.jpg using Guid(8537439e4f2921f4a923094f0b45edf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e624d0cb3226609a9640ae3b331343e0') in 0.011531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.280994 seconds.
+  path: Assets/Models/천Surface_Color.jpg
+  artifactKey: Guid(0959d9cfe602c75408c13bbd986f5e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/천Surface_Color.jpg using Guid(0959d9cfe602c75408c13bbd986f5e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f02c6345e5c4951a324aa32736c3182') in 0.009464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.035286 seconds.
+  path: Assets/Models/fabric.jpg
+  artifactKey: Guid(0959d9cfe602c75408c13bbd986f5e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fabric.jpg using Guid(0959d9cfe602c75408c13bbd986f5e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be913b61da3cc8b847ad0c93e4160157') in 0.009711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.416772 seconds.
+  path: Assets/Models/하단_바디Surface_Color.jpg
+  artifactKey: Guid(6fa6f63e3a138ec43bb79ad9f9b4382c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/하단_바디Surface_Color.jpg using Guid(6fa6f63e3a138ec43bb79ad9f9b4382c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36fbf767961ea85d0681c9395e7c661e') in 0.010573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.866369 seconds.
+  path: Assets/Models/Yakyeon_body.jpg
+  artifactKey: Guid(6fa6f63e3a138ec43bb79ad9f9b4382c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Yakyeon_body.jpg using Guid(6fa6f63e3a138ec43bb79ad9f9b4382c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4662ac385a6eacd64f733bf31a127f16') in 0.011338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.945106 seconds.
+  path: Assets/Models/fabric.fbx
+  artifactKey: Guid(cc1c87637a615964ca1eb744667c656a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fabric.fbx using Guid(cc1c87637a615964ca1eb744667c656a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69426639edc183134539e6b642f370ab') in 0.026511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.142958 seconds.
+  path: Assets/Models/fabric.fbx
+  artifactKey: Guid(cc1c87637a615964ca1eb744667c656a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fabric.fbx using Guid(cc1c87637a615964ca1eb744667c656a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ebd423871729fc5afa043b5627d7f7f') in 0.024997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.936194 seconds.
+  path: Assets/Models/천Normal.jpg
+  artifactKey: Guid(afb3e345d2e5d3b4ba5d9a6ab1281df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/천Normal.jpg using Guid(afb3e345d2e5d3b4ba5d9a6ab1281df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b93d22db3d5be1ed80ba248d179051a') in 0.009873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.449213 seconds.
+  path: Assets/Models/천Surface_Color.jpg
+  artifactKey: Guid(1e2cfb33dbb4e1f4babf2d90b8fd34fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/천Surface_Color.jpg using Guid(1e2cfb33dbb4e1f4babf2d90b8fd34fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6bf215b169a9ef9c641f4a2472aea52') in 0.009452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.607132 seconds.
+  path: Assets/Models/fabric.jpg
+  artifactKey: Guid(1e2cfb33dbb4e1f4babf2d90b8fd34fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fabric.jpg using Guid(1e2cfb33dbb4e1f4babf2d90b8fd34fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b253c6975031a7cd7b4c4cb0fc6c7a65') in 0.009226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 40.307762 seconds.
+  path: Assets/Models/Yaktle_handle.fbx
+  artifactKey: Guid(df3c3f863bf6c054e87228b6bfc53504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Yaktle_handle.fbx using Guid(df3c3f863bf6c054e87228b6bfc53504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aab3c7a7d3253fa7417d69f7c9895846') in 0.025711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 112.763015 seconds.
+  path: Assets/Models/Yaktle_body 1.fbx
+  artifactKey: Guid(5c6fe9117bfec2143850cb24401435fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Yaktle_body 1.fbx using Guid(5c6fe9117bfec2143850cb24401435fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b864bfe4b3fca9f38cfb014f0465ea4') in 0.024871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.534009 seconds.
+  path: Assets/Models/Yaktle_body 1.fbx
+  artifactKey: Guid(5c6fe9117bfec2143850cb24401435fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Yaktle_body 1.fbx using Guid(5c6fe9117bfec2143850cb24401435fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0b688d715876de54ef158a6b19379fa') in 0.052493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.690479 seconds.
+  path: Assets/Models/Yaktle_handle 1.fbx
+  artifactKey: Guid(058a4e8be8f6f6b4f9ab17129335da33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Yaktle_handle 1.fbx using Guid(058a4e8be8f6f6b4f9ab17129335da33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3562aba19f1cbb4a5d148c6d3eea071c') in 0.019468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.923517 seconds.
+  path: Assets/Models/Yaktle_handle 1.fbx
+  artifactKey: Guid(058a4e8be8f6f6b4f9ab17129335da33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Yaktle_handle 1.fbx using Guid(058a4e8be8f6f6b4f9ab17129335da33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a39c2daab3906b8d36b83c67c236c173') in 0.023316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.010747 seconds.
+  path: Assets/Models/Yaktle_body.fbx
+  artifactKey: Guid(5c6fe9117bfec2143850cb24401435fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Yaktle_body.fbx using Guid(5c6fe9117bfec2143850cb24401435fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6439a47b800b62cac0bb2aea28671277') in 0.021876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.063060 seconds.
+  path: Assets/Models/Yaktle_handle.fbx
+  artifactKey: Guid(058a4e8be8f6f6b4f9ab17129335da33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Yaktle_handle.fbx using Guid(058a4e8be8f6f6b4f9ab17129335da33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df8086a891beb8c7eda051f2ea133ffd') in 0.015598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.129221 seconds.
+  path: Assets/Models/손잡이.2Normal.jpg
+  artifactKey: Guid(e793c831ba17fbf4ea61b23f5a9b30b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/손잡이.2Normal.jpg using Guid(e793c831ba17fbf4ea61b23f5a9b30b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7477e0899414bd9ed313d30d373a3347') in 0.010552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.548525 seconds.
+  path: Assets/Models/약틀.1Normal.jpg
+  artifactKey: Guid(29f453a6f867d5f499ef22333783c785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/약틀.1Normal.jpg using Guid(29f453a6f867d5f499ef22333783c785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21eceac9f589e69d780d83aa94824ce1') in 0.011363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.744104 seconds.
+  path: Assets/Models/손잡이.2Surface_Color.jpg
+  artifactKey: Guid(4d02d9c0f5d382e42b65f9da890a87e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/손잡이.2Surface_Color.jpg using Guid(4d02d9c0f5d382e42b65f9da890a87e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b3a447bde05457818f0dd26ff63c20f') in 0.010761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.905186 seconds.
+  path: Assets/Models/약틀.1Surface_Color.jpg
+  artifactKey: Guid(94fe35c118ed04c49ae78525d363660b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/약틀.1Surface_Color.jpg using Guid(94fe35c118ed04c49ae78525d363660b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f41fa2b1ca73070ea1bc359f314dd655') in 0.012520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 77.862371 seconds.
+  path: Assets/Models/Yagyeon_body.jpg
+  artifactKey: Guid(6fa6f63e3a138ec43bb79ad9f9b4382c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Yagyeon_body.jpg using Guid(6fa6f63e3a138ec43bb79ad9f9b4382c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ece0696d05fc3d2771c85deee03fc2b') in 0.009097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.258738 seconds.
+  path: Assets/Models/Yaktle_handle.fbx
+  artifactKey: Guid(058a4e8be8f6f6b4f9ab17129335da33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Yaktle_handle.fbx using Guid(058a4e8be8f6f6b4f9ab17129335da33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c743d681c5b85ae71709a4ebd5a0e14') in 0.012505 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.223787 seconds.
+  path: Assets/Models/Yaktle_handle.fbx
+  artifactKey: Guid(058a4e8be8f6f6b4f9ab17129335da33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Yaktle_handle.fbx using Guid(058a4e8be8f6f6b4f9ab17129335da33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f957be0d5c86e55f7fec98d866d1ee48') in 0.013168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.684088 seconds.
+  path: Assets/Models/손잡이.2Normal.jpg
+  artifactKey: Guid(114742d0382ce3046b22b8400c6ec157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/손잡이.2Normal.jpg using Guid(114742d0382ce3046b22b8400c6ec157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b73743ced791a8618d7089b2ab301a2c') in 0.010723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.096634 seconds.
+  path: Assets/Models/손잡이.2Surface_Color.jpg
+  artifactKey: Guid(d9f779a956efeb547a77e35de8838100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/손잡이.2Surface_Color.jpg using Guid(d9f779a956efeb547a77e35de8838100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7b2af13664dd3b6f1ff740380e0416a') in 0.008844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.180344 seconds.
+  path: Assets/Models/dsadd.jpg
+  artifactKey: Guid(d9f779a956efeb547a77e35de8838100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/dsadd.jpg using Guid(d9f779a956efeb547a77e35de8838100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00e647cfbb128c2a641187b572205e18') in 0.010204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.373605 seconds.
+  path: Assets/Models/Yaktle_handle.jpg
+  artifactKey: Guid(d9f779a956efeb547a77e35de8838100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Yaktle_handle.jpg using Guid(d9f779a956efeb547a77e35de8838100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f700fa992cffbb0b487a3210d8a09f60') in 0.009035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.741277 seconds.
+  path: Assets/Models/Yaktle_body.fbx
+  artifactKey: Guid(5c6fe9117bfec2143850cb24401435fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Yaktle_body.fbx using Guid(5c6fe9117bfec2143850cb24401435fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d0e76231ee8cb24da3cc8ab84194df8') in 0.013181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.674827 seconds.
+  path: Assets/Models/Yaktle_body.fbx
+  artifactKey: Guid(5c6fe9117bfec2143850cb24401435fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Yaktle_body.fbx using Guid(5c6fe9117bfec2143850cb24401435fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d51e034fd7a909e71693a5698702415') in 0.013957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.016437 seconds.
+  path: Assets/Models/약틀.1Normal.jpg
+  artifactKey: Guid(e5a17359fe78dbd4c8b251e485ebf439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/약틀.1Normal.jpg using Guid(e5a17359fe78dbd4c8b251e485ebf439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ce2d3ab3efad01a986e9b3fab3cf0c6') in 0.011342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.343023 seconds.
+  path: Assets/Models/약틀.1Surface_Color.jpg
+  artifactKey: Guid(8f2b684b64368fd4e903a9e9a7a5f9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/약틀.1Surface_Color.jpg using Guid(8f2b684b64368fd4e903a9e9a7a5f9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1582977b1dab0af6866d15b10c9ab5e4') in 0.010890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.126929 seconds.
+  path: Assets/Models/Yaktle_body.jpg
+  artifactKey: Guid(8f2b684b64368fd4e903a9e9a7a5f9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Yaktle_body.jpg using Guid(8f2b684b64368fd4e903a9e9a7a5f9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '797be8600d2c7bd0a8f7b36f1a1c2792') in 0.011148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.273998 seconds.
+  path: Assets/Models/Yaktanggi_fabric.fbx
+  artifactKey: Guid(cc1c87637a615964ca1eb744667c656a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Yaktanggi_fabric.fbx using Guid(cc1c87637a615964ca1eb744667c656a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b93ed21658c37d5cf5807f36d366ff72') in 0.024473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.408533 seconds.
+  path: Assets/Models/Yaktanggi_fabric.jpg
+  artifactKey: Guid(1e2cfb33dbb4e1f4babf2d90b8fd34fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Yaktanggi_fabric.jpg using Guid(1e2cfb33dbb4e1f4babf2d90b8fd34fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eacc880005eea86faac028e39c63d56') in 0.008158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.500820 seconds.
+  path: Assets/Models/Yaktle_body.fbx
+  artifactKey: Guid(5c6fe9117bfec2143850cb24401435fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Yaktle_body.fbx using Guid(5c6fe9117bfec2143850cb24401435fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8d69c05e4716f45feda38f8e6eca5f3') in 0.020778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.080103 seconds.
+  path: Assets/Models/Yaktle_body.fbx
+  artifactKey: Guid(5c6fe9117bfec2143850cb24401435fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Yaktle_body.fbx using Guid(5c6fe9117bfec2143850cb24401435fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc58bcdf59c77f97542f1dd4ac9f25d6') in 0.024315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.324666 seconds.
+  path: Assets/Models/약틀.1Normal.jpg
+  artifactKey: Guid(244794bbef8be5e4ea90135a7bb84f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/약틀.1Normal.jpg using Guid(244794bbef8be5e4ea90135a7bb84f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ac97490182b8039ca721df0b62d922d') in 0.010470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.157490 seconds.
+  path: Assets/Models/약틀.1Surface_Color.jpg
+  artifactKey: Guid(1611b452c2ca61e4d9dc5060ac0c66c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/약틀.1Surface_Color.jpg using Guid(1611b452c2ca61e4d9dc5060ac0c66c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2625b85fc2f21156bebdcdb12cc66bd9') in 0.010570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.760829 seconds.
+  path: Assets/Models/Yaktle_body.jpg
+  artifactKey: Guid(1611b452c2ca61e4d9dc5060ac0c66c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Yaktle_body.jpg using Guid(1611b452c2ca61e4d9dc5060ac0c66c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58dde617f56208c7d7049b0ddb5874cf') in 0.011796 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
