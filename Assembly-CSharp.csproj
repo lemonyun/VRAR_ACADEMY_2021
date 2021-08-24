@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{dd79723d-82c9-0373-4c27-b6cb0fb5c56a}</ProjectGuid>
+    <ProjectGuid>{00851042-4374-2b64-eb8b-b0a96f5287c4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -111,6 +111,7 @@
      <Compile Include="Assets\Oculus\Avatar\Scripts\OvrAvatarMaterialManager.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Scripts\ColliderZone.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Core\Video\Scripts\MoviePlayerSampleControls.cs" />
+     <Compile Include="Assets\Scripts\Yakyeon.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\WindmillController.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Scripts\SPPquad.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Core\DebugUI\Scripts\LaserPointer.cs" />
@@ -129,6 +130,7 @@
      <Compile Include="Assets\Oculus\SampleFramework\Core\Video\Scripts\MediaPlayerImage.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\DistanceGrab\Scripts\DistanceGrabberSample.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Scripts\HandsManager.cs" />
+     <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Oculus\Avatar\Scripts\OvrAvatarSettingsEditor.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Scripts\SceneSampler.cs" />
      <Compile Include="Assets\Oculus\Avatar\Scripts\OvrAvatarPacket.cs" />
@@ -169,9 +171,11 @@
      <Compile Include="Assets\Oculus\Avatar\Scripts\OvrAvatarComponent.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Scripts\Tools\RayTool.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Scripts\Tools\FingerTipPokeToolView.cs" />
+     <Compile Include="Assets\Yakyeon_handle.cs" />
      <Compile Include="Assets\Oculus\Avatar\Scripts\OvrAvatarTextureCopyManager.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\OVROverlay\Scripts\OVROverlaySample.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportTargetHandler.cs" />
+     <Compile Include="Assets\GamCho.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Scripts\PassthroughStyler.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Scripts\SelectivePassthroughExperience.cs" />
      <Compile Include="Assets\Oculus\Avatar\Samples\SocialStarter\Assets\Scripts\PlayerController.cs" />
@@ -452,10 +456,10 @@
         <HintPath>C:/Program Files/Unity/Hub/Editor/2021.1.16f1/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-        <HintPath>D:/Unity/KoreanTraditionalJob_VR/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+        <HintPath>D:/Unity/KoreanTraditionalJob_VR/VRAR_ACADEMY_2021/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-        <HintPath>D:/Unity/KoreanTraditionalJob_VR/Library/PackageCache/com.unity.visualscripting@1.6.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+        <HintPath>D:/Unity/KoreanTraditionalJob_VR/VRAR_ACADEMY_2021/Library/PackageCache/com.unity.visualscripting@1.6.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2021.1.16f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -803,131 +807,131 @@
         <HintPath>C:/Program Files/Unity/Hub/Editor/2021.1.16f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow.Editor">
-        <HintPath>D:/Unity/KoreanTraditionalJob_VR/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll</HintPath>
+        <HintPath>D:/Unity/KoreanTraditionalJob_VR/VRAR_ACADEMY_2021/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-        <HintPath>D:/Unity/KoreanTraditionalJob_VR/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+        <HintPath>D:/Unity/KoreanTraditionalJob_VR/VRAR_ACADEMY_2021/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>D:/Unity/KoreanTraditionalJob_VR/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+        <HintPath>D:/Unity/KoreanTraditionalJob_VR/VRAR_ACADEMY_2021/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
-        <HintPath>D:/Unity/KoreanTraditionalJob_VR/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+        <HintPath>D:/Unity/KoreanTraditionalJob_VR/VRAR_ACADEMY_2021/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Management.Editor">
-        <HintPath>D:/Unity/KoreanTraditionalJob_VR/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
+        <HintPath>D:/Unity/KoreanTraditionalJob_VR/VRAR_ACADEMY_2021/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-        <HintPath>D:/Unity/KoreanTraditionalJob_VR/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+        <HintPath>D:/Unity/KoreanTraditionalJob_VR/VRAR_ACADEMY_2021/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core.Editor">
-        <HintPath>D:/Unity/KoreanTraditionalJob_VR/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll</HintPath>
+        <HintPath>D:/Unity/KoreanTraditionalJob_VR/VRAR_ACADEMY_2021/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-        <HintPath>D:/Unity/KoreanTraditionalJob_VR/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+        <HintPath>D:/Unity/KoreanTraditionalJob_VR/VRAR_ACADEMY_2021/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.State.Editor">
-        <HintPath>D:/Unity/KoreanTraditionalJob_VR/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll</HintPath>
+        <HintPath>D:/Unity/KoreanTraditionalJob_VR/VRAR_ACADEMY_2021/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll</HintPath>
     </Reference>
     <Reference Include="VSSettingsProvider">
-        <HintPath>D:/Unity/KoreanTraditionalJob_VR/Library/ScriptAssemblies/VSSettingsProvider.dll</HintPath>
+        <HintPath>D:/Unity/KoreanTraditionalJob_VR/VRAR_ACADEMY_2021/Library/ScriptAssemblies/VSSettingsProvider.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Subsystem.Registration">
-        <HintPath>D:/Unity/KoreanTraditionalJob_VR/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
+        <HintPath>D:/Unity/KoreanTraditionalJob_VR/VRAR_ACADEMY_2021/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow">
-        <HintPath>D:/Unity/KoreanTraditionalJob_VR/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll</HintPath>
+        <HintPath>D:/Unity/KoreanTraditionalJob_VR/VRAR_ACADEMY_2021/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>D:/Unity/KoreanTraditionalJob_VR/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+        <HintPath>D:/Unity/KoreanTraditionalJob_VR/VRAR_ACADEMY_2021/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
-        <HintPath>D:/Unity/KoreanTraditionalJob_VR/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
+        <HintPath>D:/Unity/KoreanTraditionalJob_VR/VRAR_ACADEMY_2021/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-        <HintPath>D:/Unity/KoreanTraditionalJob_VR/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+        <HintPath>D:/Unity/KoreanTraditionalJob_VR/VRAR_ACADEMY_2021/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>D:/Unity/KoreanTraditionalJob_VR/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+        <HintPath>D:/Unity/KoreanTraditionalJob_VR/VRAR_ACADEMY_2021/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SpatialTracking">
-        <HintPath>D:/Unity/KoreanTraditionalJob_VR/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
+        <HintPath>D:/Unity/KoreanTraditionalJob_VR/VRAR_ACADEMY_2021/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core">
-        <HintPath>D:/Unity/KoreanTraditionalJob_VR/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll</HintPath>
+        <HintPath>D:/Unity/KoreanTraditionalJob_VR/VRAR_ACADEMY_2021/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.XR.LegacyInputHelpers">
-        <HintPath>D:/Unity/KoreanTraditionalJob_VR/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+        <HintPath>D:/Unity/KoreanTraditionalJob_VR/VRAR_ACADEMY_2021/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-        <HintPath>D:/Unity/KoreanTraditionalJob_VR/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+        <HintPath>D:/Unity/KoreanTraditionalJob_VR/VRAR_ACADEMY_2021/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.XR.LegacyInputHelpers">
-        <HintPath>D:/Unity/KoreanTraditionalJob_VR/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+        <HintPath>D:/Unity/KoreanTraditionalJob_VR/VRAR_ACADEMY_2021/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Management">
-        <HintPath>D:/Unity/KoreanTraditionalJob_VR/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
+        <HintPath>D:/Unity/KoreanTraditionalJob_VR/VRAR_ACADEMY_2021/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Oculus.Editor">
-        <HintPath>D:/Unity/KoreanTraditionalJob_VR/Library/ScriptAssemblies/Unity.XR.Oculus.Editor.dll</HintPath>
+        <HintPath>D:/Unity/KoreanTraditionalJob_VR/VRAR_ACADEMY_2021/Library/ScriptAssemblies/Unity.XR.Oculus.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Oculus">
-        <HintPath>D:/Unity/KoreanTraditionalJob_VR/Library/ScriptAssemblies/Unity.XR.Oculus.dll</HintPath>
+        <HintPath>D:/Unity/KoreanTraditionalJob_VR/VRAR_ACADEMY_2021/Library/ScriptAssemblies/Unity.XR.Oculus.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.SpatialTracking">
-        <HintPath>D:/Unity/KoreanTraditionalJob_VR/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+        <HintPath>D:/Unity/KoreanTraditionalJob_VR/VRAR_ACADEMY_2021/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
-        <HintPath>D:/Unity/KoreanTraditionalJob_VR/Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
+        <HintPath>D:/Unity/KoreanTraditionalJob_VR/VRAR_ACADEMY_2021/Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Oculus.VR.Editor.csproj">
-      <Project>{d8bbb55e-59a4-e23a-db30-f261c35e915a}</Project>
+      <Project>{170d536d-be21-180e-fca6-1cfef172b1ec}</Project>
       <Name>Oculus.VR.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.AudioManager.csproj">
-      <Project>{0f5dd9a6-79f8-1a51-fc7b-edc19faa7b62}</Project>
+      <Project>{74b63903-808d-5e5f-a2a0-015434a87842}</Project>
       <Name>Oculus.AudioManager</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.Platform.Editor.csproj">
-      <Project>{fec19313-ca15-0563-8c4f-c8fec7cec310}</Project>
+      <Project>{abe8bd0a-8f1a-7668-ca69-08a8d62bdd7e}</Project>
       <Name>Oculus.Platform.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.VR.Scripts.Editor.csproj">
-      <Project>{0798cb48-e2db-90a0-3dcd-acac4f9ae37d}</Project>
+      <Project>{0849166b-c0a7-d1bd-c7a0-ac0b73f98edc}</Project>
       <Name>Oculus.VR.Scripts.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.Spatializer.csproj">
-      <Project>{d64fccc6-fef1-5f05-f410-03769546674e}</Project>
+      <Project>{0f5b8562-2987-3516-f5bf-ccef1f841de8}</Project>
       <Name>Oculus.Spatializer</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.AudioManager.Utils.Editor.csproj">
-      <Project>{a450c4a8-c1e1-db97-c073-f91d4cd62440}</Project>
+      <Project>{b9d2cda6-7424-0533-8941-7256df6d909f}</Project>
       <Name>Oculus.AudioManager.Utils.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.Platform.csproj">
-      <Project>{5288ab23-98e6-91ed-2151-67ba256c60b7}</Project>
+      <Project>{144cbf25-e653-dc99-3196-f6cf03d4997a}</Project>
       <Name>Oculus.Platform</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.VR.csproj">
-      <Project>{7692b4d7-bc0f-ac12-1ed4-090dc365b439}</Project>
+      <Project>{1b2d7974-61f8-1b4f-b19f-a24fb3ced2f5}</Project>
       <Name>Oculus.VR</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.AudioManager.Audio.Editor.csproj">
-      <Project>{9147c150-9f65-71bb-ac58-340b26812e9c}</Project>
+      <Project>{0aa19a1d-d614-801f-c2bf-4bfa90221a15}</Project>
       <Name>Oculus.AudioManager.Audio.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.Spatializer.Editor.csproj">
-      <Project>{e02351e3-a8f2-4759-0a5e-edb84a4762da}</Project>
+      <Project>{93e7856f-49eb-ab5f-724d-258a7f83710a}</Project>
       <Name>Oculus.Spatializer.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.LipSync.Editor.csproj">
-      <Project>{fdf220d9-2203-13a4-9409-e0add5660507}</Project>
+      <Project>{92c25f74-83eb-dc80-e857-7c0b0f3198df}</Project>
       <Name>Oculus.LipSync.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.LipSync.csproj">
-      <Project>{2b0da223-7a67-a2a3-f8e5-76bfae24d920}</Project>
+      <Project>{b111c9ef-8ba3-c924-7513-05e22a47c5e6}</Project>
       <Name>Oculus.LipSync</Name>
     </ProjectReference>
   </ItemGroup>
