@@ -12,6 +12,7 @@ public class Yakyeon : MonoBehaviour
                 GameObject ch = other.transform.GetChild(0).gameObject;
                 ch.transform.parent = null;
                 ch.AddComponent<Rigidbody>();
+                GameManager.instance.step1_put_clear = true;
             }
         }   
     }
