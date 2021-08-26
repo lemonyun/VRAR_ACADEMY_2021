@@ -505,7 +505,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8767217407181631987, guid: bacc70b09c9614d89b194c1335f0f49d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.6859999
+      value: 19.946001
       objectReference: {fileID: 0}
     - target: {fileID: 8767217407181631987, guid: bacc70b09c9614d89b194c1335f0f49d, type: 3}
       propertyPath: m_LocalPosition.y
@@ -792,6 +792,7 @@ GameObject:
   m_Component:
   - component: {fileID: 469842094}
   - component: {fileID: 469842093}
+  - component: {fileID: 469842095}
   m_Layer: 0
   m_Name: CameraManager
   m_TagString: Untagged
@@ -811,6 +812,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd056c25321228b4f9ceb95ff91259ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ovfade: {fileID: 0}
 --- !u!4 &469842094
 Transform:
   m_ObjectHideFlags: 0
@@ -825,6 +827,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &469842095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 469842092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df8e1d778abf442e4bec449c360e9e1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fadeTime: 2
+  fadeColor: {r: 0.01, g: 0.01, b: 0.01, a: 1}
+  fadeOnStart: 1
+  renderQueue: 5000
 --- !u!1001 &491076482
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1176,7 +1194,7 @@ GameObject:
   - component: {fileID: 710271598}
   - component: {fileID: 710271597}
   m_Layer: 0
-  m_Name: Canvas
+  m_Name: Temperature_UI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1199,7 +1217,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 2.11, y: 1}
+  m_AnchoredPosition: {x: 20.37, y: 1}
   m_SizeDelta: {x: 100, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &710271597
@@ -1332,7 +1350,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b02f384adb8e60049a20f451008dbe50, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.119
+      value: -0.649
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b02f384adb8e60049a20f451008dbe50, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1340,7 +1358,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b02f384adb8e60049a20f451008dbe50, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.616
+      value: -0.444
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b02f384adb8e60049a20f451008dbe50, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2257,7 +2275,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b02f384adb8e60049a20f451008dbe50, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.1540003
+      value: 20.414001
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b02f384adb8e60049a20f451008dbe50, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2616,7 +2634,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 463470, guid: 84c8b8609f9bb434eaf5248f17ff1293, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: 463470, guid: 84c8b8609f9bb434eaf5248f17ff1293, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3770,7 +3788,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 88b8efff4b06bb44dbf99a8284229af5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.1559992
+      value: 20.416
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 88b8efff4b06bb44dbf99a8284229af5, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4130,8 +4148,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 4.815698, y: 0.45930773, z: 4.2664833}
-  m_Center: {x: 0.002468324, y: -1.7870914, z: 0.43555382}
+  m_Size: {x: 2.6562767, y: 0.45930764, z: 2.6517797}
+  m_Center: {x: -0.007259255, y: -1.7870914, z: 0.4841894}
 --- !u!65 &2113540122
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4143,8 +4161,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.9480793, y: 0.72559994, z: 3.1991105}
-  m_Center: {x: -0.03644573, y: -0.06999999, z: 0.35787207}
+  m_Size: {x: 2.9480793, y: 0.33651498, z: 2.7127533}
+  m_Center: {x: -0.03644573, y: -0.26454228, z: 0.48432404}
 --- !u!114 &2113540123
 MonoBehaviour:
   m_ObjectHideFlags: 0

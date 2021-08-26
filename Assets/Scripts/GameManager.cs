@@ -15,7 +15,7 @@ public class GameManager : MonoBehaviour
 
     public bool step1_put_clear;
     public int step1_gamcho_num;
-    public bool step1_move_gamcho;
+    public bool step1_move_liquid;
 
     private enum State
     {
@@ -31,11 +31,11 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         isPlaying = false;
-        curState = State.STEP2;
+        curState = State.STEP1;
 
         step1_gamcho_num = 0;
         step1_put_clear = false;
-        step1_move_gamcho = false;
+        step1_move_liquid = false;
 
         score = 0;
 
@@ -70,6 +70,7 @@ public class GameManager : MonoBehaviour
                     break;
                 case State.STEP3:
                     isPlaying = true;
+                    StartCouroutine(Step3());
                     break;
                 case State.END:
                     break;  
@@ -91,17 +92,24 @@ public class GameManager : MonoBehaviour
         yield return new WaitUntil(() => step1_gamcho_num >= 9);
         //약즙을 탕약기로 옮겨보세요
         //옮김
-        yield return new WaitUntil(() => step1_move_gamcho);
+        yield return new WaitUntil(() => step1_move_liquid);
         yield return new WaitForSeconds(10.0f); // 10초뒤 종료
         
         isPlaying = false;
-        
+
+        curState = State.STEP2;
 
     }
 
     IEnumerator Step2(){
         // 플레이어 이동
         // 조명 어둡
+        
+        yield return new WaitForSeconds(2.0f);
+        GameObject player = GameObject.Find("LocalAvatar");
+        player.transform.position = new Vector3(20.5f, 1.0f, -1.0f);
+
+
         Debug.Log("hi");
 
         for(int i=0; i<20; i++){
@@ -120,6 +128,10 @@ public class GameManager : MonoBehaviour
 
     IEnumerator Step3(){
         yield return new WaitForSeconds(0.1f);
+
+        GameObject player = GameObject.Find("LocalAvatar");
+        player.transform.position = new Vector3(0, 1.0f, -0.5f);
+
 
     }
 }
