@@ -6,6 +6,10 @@ public class Yaktanggi : MonoBehaviour
 {
     // Start is called before the first frame update
     private void OnTriggerEnter(Collider other) {
-        GameManager.instance.step1_move_gamcho = true;
+        
+        if(other.tag == "Liquid"){
+            GameManager.instance.step1_move_liquid = true;
+        }
+        
     }
 }
