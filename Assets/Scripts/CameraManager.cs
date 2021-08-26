@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class CameraManager : MonoBehaviour
 {
-    public OVRScreenFade ovfade;
-    
+
     public static CameraManager instance;
 
     void Start(){
@@ -20,15 +19,6 @@ public class CameraManager : MonoBehaviour
         }
         DontDestroyOnLoad(this.gameObject);
 
-        ovfade = GetComponent<OVRScreenFade>();
-    }
-
-    public void FadeIn(){
-        ovfade.FadeIn();
-    }
-
-    public void FadeOut(){
-        ovfade.FadeOut();
     }
 
 

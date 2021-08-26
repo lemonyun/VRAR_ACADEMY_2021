@@ -70,7 +70,7 @@ public class GameManager : MonoBehaviour
                     break;
                 case State.STEP3:
                     isPlaying = true;
-                    StartCouroutine(Step3());
+                    StartCoroutine(Step3());
                     break;
                 case State.END:
                     break;  
