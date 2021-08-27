@@ -9,6 +9,7 @@ public class Yaktanggi : MonoBehaviour
         
         if(other.tag == "Liquid"){
             GameManager.instance.step1_move_liquid = true;
+            other.gameObject.transform.parent = transform;
         }
         
     }
