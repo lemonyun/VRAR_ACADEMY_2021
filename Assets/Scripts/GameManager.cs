@@ -16,6 +16,13 @@ public class GameManager : MonoBehaviour
     public bool step1_put_clear;
     public int step1_gamcho_num;
     public bool step1_move_liquid;
+    
+    public GameObject yaktang;
+
+    public Transform step1_transform;
+    public Transform stpe2_transform;
+    public Transform stpe3_transform;
+    public Transform yaktang_transform;
 
     private enum State
     {
@@ -107,7 +114,7 @@ public class GameManager : MonoBehaviour
         
         yield return new WaitForSeconds(2.0f);
         GameObject player = GameObject.Find("LocalAvatar");
-        player.transform.position = new Vector3(20.5f, 1.0f, -1.0f);
+        player.transform.position = stpe2_transform.position;
 
 
         Debug.Log("hi");
@@ -129,8 +136,10 @@ public class GameManager : MonoBehaviour
     IEnumerator Step3(){
         yield return new WaitForSeconds(0.1f);
 
+        yaktang.transform.position = yaktang_transform.position;
+        
         GameObject player = GameObject.Find("LocalAvatar");
-        player.transform.position = new Vector3(0, 1.0f, -0.5f);
+        player.transform.position = stpe3_transform.transform.position;
 
 
     }

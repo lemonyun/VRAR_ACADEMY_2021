@@ -8,6 +8,8 @@ public class UIManager : MonoBehaviour
     public Slider temperature;
     public static UIManager instance = null;
 
+    public Image[] manuals;
+
     void Start(){
         temperature.value = 0;
         if (instance == null)
@@ -19,6 +21,8 @@ public class UIManager : MonoBehaviour
             Destroy(this.gameObject);
         }
         DontDestroyOnLoad(this.gameObject);
+
+        manuals = new Image[20];
     }
 
 
@@ -32,5 +36,9 @@ public class UIManager : MonoBehaviour
         if(temperature.value > 0){
             temperature.value -= 0.1f;
         }
+    }
+
+    public void ActiveManual(int num, bool active){
+        manuals[num].gameObject.SetActive(active);
     }
 }
