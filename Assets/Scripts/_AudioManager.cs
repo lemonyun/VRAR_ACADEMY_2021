@@ -16,11 +16,23 @@ public class _AudioManager : MonoBehaviour
     void Start()
     {
         instance = this;
-        audios = new AudioClip[20];
+        if (instance == null)
+        {
+            instance = this;
+        }
+        else if (instance != this)
+        {
+            Destroy(this.gameObject);
+        }
+        DontDestroyOnLoad(this.gameObject);
+
+        //audios = new AudioClip[20];
         audioSource = GetComponent<AudioSource>();
+         
     }
 
-    public void playclip(int num){
+    public void Playclip(int num){
+        Debug.Log("RHDHHDH");
         audioSource.clip = audios[num];
         audioSource.Play();
     }

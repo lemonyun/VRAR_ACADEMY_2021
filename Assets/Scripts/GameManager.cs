@@ -5,7 +5,9 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    private bool isPlaying;
+    public bool isStep1Done;
+    public bool isStep2Done;
+    public bool isStep3Done;
 
     private State curState;
 
@@ -24,6 +26,10 @@ public class GameManager : MonoBehaviour
     public Transform stpe3_transform;
     public Transform yaktang_transform;
 
+    public GameObject space1;
+    public GameObject space2;
+    public GameObject space3;
+
     private enum State
     {
         START,
@@ -37,7 +43,11 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        isPlaying = false;
+        isStep1Done = false;
+        isStep2Done = false;
+        isStep3Done = false;
+
+
         curState = State.STEP1;
 
         step1_gamcho_num = 0;
@@ -56,55 +66,46 @@ public class GameManager : MonoBehaviour
         }
         DontDestroyOnLoad(this.gameObject);
 
+        StartCoroutine(GameFlow());
     }
 
     // Update is called once per frame
-    void Update()
+    IEnumerator GameFlow()
     {
-        Debug.Log("curState" + curState);
-        if(!isPlaying){
-            switch(curState){
-                case State.START:
-                    isPlaying = true;
-                    break;
-                case State.STEP1:
-                    isPlaying = true;
-                    StartCoroutine(Step1());
-                    break;
-                case State.STEP2:
-                    isPlaying = true;
-                    StartCoroutine(Step2());
-                    break;
-                case State.STEP3:
-                    isPlaying = true;
-                    StartCoroutine(Step3());
-                    break;
-                case State.END:
-                    break;  
-            }
-        }
+
+        StartCoroutine(Step1());
+        yield return new WaitUntil(() => isStep1Done);
+        StartCoroutine(Step2());
+        yield return new WaitUntil(() => isStep2Done);
+        StartCoroutine(Step3());
+        
+        
     }
 
     IEnumerator Step1(){
-        yield return new WaitForSeconds(0.1f);
+        yield return new WaitForSeconds(2.0f);
         //감기에 심하게 걸려 열이 높은 환자가 있어요 올바른 약재를 찾아보세요
         
 
         //약재를 꺼내서 약연에 넣어보세요 
+        _AudioManager.instance.Playclip(0);
         yield return new WaitUntil(() => step1_put_clear);
         //넣음
         
         //연알(막대)을 굴려서 약재를 빻아보세요
         //빻음  
+        UIManager.instance.ActiveManual(2, true);
+        _AudioManager.instance.Playclip(1);
         yield return new WaitUntil(() => step1_gamcho_num >= 9);
         //약즙을 탕약기로 옮겨보세요
         //옮김
+        UIManager.instance.ActiveManual(2, false);
+        UIManager.instance.ActiveManual(3, true);
+        _AudioManager.instance.Playclip(2);
         yield return new WaitUntil(() => step1_move_liquid);
         yield return new WaitForSeconds(10.0f); // 10초뒤 종료
         
-        isPlaying = false;
-
-        curState = State.STEP2;
+        isStep1Done = true;
 
     }
 
@@ -119,14 +120,14 @@ public class GameManager : MonoBehaviour
 
         Debug.Log("hi");
 
+        _AudioManager.instance.Playclip(3);
         for(int i=0; i<20; i++){
             
             yield return new WaitForSeconds(1f);
             UIManager.instance.Temp_down(); // 20초동안 1초에 1/20 만큼 온도 떨어짐
         }
-        isPlaying = false;
-        curState = State.STEP3;
-        
+        isStep2Done = true;
+         
         if(UIManager.instance.temperature.value >= 0.7f){
             score += 1;
         }

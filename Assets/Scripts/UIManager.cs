@@ -22,7 +22,6 @@ public class UIManager : MonoBehaviour
         }
         DontDestroyOnLoad(this.gameObject);
 
-        manuals = new Image[20];
     }
 
 
