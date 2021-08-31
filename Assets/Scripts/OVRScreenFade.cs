@@ -92,20 +92,11 @@ public class OVRScreenFade : MonoBehaviour
 		mesh.triangles = tri;
 
 		Vector3[] normals = new Vector3[4];
-// custom code
 
-	GameObject eye = GameObject.Find("CenterEyeAnchor");	
-
-	normals[0] = -eye.transform.forward;
-	normals[1] = -eye.transform.forward;
-	normals[2] = -eye.transform.forward;
-	normals[3] = -eye.transform.forward;
-	
-
-		// normals[0] = -Vector3.forward;
-		// normals[1] = -Vector3.forward;
-		// normals[2] = -Vector3.forward;
-		// normals[3] = -Vector3.forward;
+		normals[0] = -Vector3.forward;
+		normals[1] = -Vector3.forward;
+		normals[2] = -Vector3.forward;
+		normals[3] = -Vector3.forward;
 
 		mesh.normals = normals;
 

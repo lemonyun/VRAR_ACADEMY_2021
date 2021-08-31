@@ -19,8 +19,6 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody))]
 public class OVRGrabber : MonoBehaviour
 {
-
-    public float fan_delaytime = 0;
     // Grip trigger thresholds for picking up objects, with some hysteresis.
     public float grabBegin = 0.55f;
     public float grabEnd = 0.35f;
@@ -230,10 +228,6 @@ public class OVRGrabber : MonoBehaviour
         float closestMagSq = float.MaxValue;
 		OVRGrabbable closestGrabbable = null;
         Collider closestGrabbableCollider = null;
-        
-        
-
-        
 
         // Iterate grab candidates and find the closest grabbable candidate
 		foreach (OVRGrabbable grabbable in m_grabCandidates.Keys)
@@ -272,20 +266,8 @@ public class OVRGrabber : MonoBehaviour
             m_grabbedObj = closestGrabbable;
             m_grabbedObj.GrabBegin(this, closestGrabbableCollider);
 
-            //custom code
-            Collider temp = m_grabbedObj.gameObject.GetComponent<Collider>();
-            if(temp.tag == "Baekjak"){
-                UIManager.instance.ActiveManual(1, true);
-                UIManager.instance.ActiveManual(0, true);
-            }else if(temp.tag == "GamCho"){
-                UIManager.instance.ActiveManual(0, true);
-                UIManager.instance.ActiveManual(1, false);
-            }
-
             m_lastPos = transform.position;
             m_lastRot = transform.rotation;
-
-            
 
             // Set up offsets for grabbed object desired position relative to hand.
             if(m_grabbedObj.snapPosition)
@@ -341,14 +323,6 @@ public class OVRGrabber : MonoBehaviour
         {
             return;
         }
-
-        //Custom Code
-            fan_delaytime += Time.deltaTime;
-
-            if(OVRInput.GetLocalControllerAngularVelocity(m_controller).sqrMagnitude > 200 && fan_delaytime >= 0.5f){
-                UIManager.instance.Temp_up();
-                fan_delaytime = 0;
-            }
 
         Rigidbody grabbedRigidbody = m_grabbedObj.grabbedRigidbody;
         Vector3 grabbablePosition = pos + rot * m_grabbedObjectPosOff;
