@@ -230,6 +230,10 @@ public class OVRGrabber : MonoBehaviour
         float closestMagSq = float.MaxValue;
 		OVRGrabbable closestGrabbable = null;
         Collider closestGrabbableCollider = null;
+        
+        
+
+        
 
         // Iterate grab candidates and find the closest grabbable candidate
 		foreach (OVRGrabbable grabbable in m_grabCandidates.Keys)
@@ -267,6 +271,16 @@ public class OVRGrabber : MonoBehaviour
 
             m_grabbedObj = closestGrabbable;
             m_grabbedObj.GrabBegin(this, closestGrabbableCollider);
+
+            //custom code
+            Collider temp = m_grabbedObj.gameObject.GetComponent<Collider>();
+            if(temp.tag == "Baekjak"){
+                UIManager.instance.ActiveManual(1, true);
+                UIManager.instance.ActiveManual(0, true);
+            }else if(temp.tag == "GamCho"){
+                UIManager.instance.ActiveManual(0, true);
+                UIManager.instance.ActiveManual(1, false);
+            }
 
             m_lastPos = transform.position;
             m_lastRot = transform.rotation;
@@ -331,7 +345,6 @@ public class OVRGrabber : MonoBehaviour
         //Custom Code
             fan_delaytime += Time.deltaTime;
 
-			Debug.Log("각속도:" + OVRInput.GetLocalControllerAngularVelocity(m_controller).sqrMagnitude);
             if(OVRInput.GetLocalControllerAngularVelocity(m_controller).sqrMagnitude > 200 && fan_delaytime >= 0.5f){
                 UIManager.instance.Temp_up();
                 fan_delaytime = 0;
